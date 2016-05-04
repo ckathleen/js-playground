@@ -3,6 +3,8 @@
 var sumTwo = require('./addition.js');
 console.log("1+3 = ", sumTwo(1,3))
 
+import * as math from "lib/math";
+console.log("2π = " + math.sum(math.pi, math.pi));
 
 var exchanges = [
 {

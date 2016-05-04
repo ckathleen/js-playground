@@ -1,8 +1,11 @@
-//import {sumTwo} from 'addition';
-var sumTwo = require('./addition');
+
+import {sumTwo} from './lib/addition';
+import "babel-polyfill";
+
 console.log("1+3", sumTwo(1,3));
 let x = 5;
 console.log(x);
+
 
 var button = document.createElement('button');
 var btnText = document.createTextNode("click me!");
